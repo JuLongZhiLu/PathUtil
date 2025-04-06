@@ -5,7 +5,10 @@ public:
 	/**
 	 * @brief 
 	 * Normalizes a path by replacing all "/" with "\" .
-	 *
+  	 *
+	 * @param path The input path string to be normalized (e.g., "C:/Program Files/data/config.json")
+  	 * @return std::string Normalized path with "\" (e.g., "C:\Program Files\data\config.json") 
+    	 *
 	 * @example
 	 * std::string result=PathUtil::normalize("C:/Program Files/data/config.json");
 	 * //result = "C:\Program Files\data\config.json"
